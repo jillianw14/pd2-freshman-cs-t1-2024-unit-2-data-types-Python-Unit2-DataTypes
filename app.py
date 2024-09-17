@@ -13,5 +13,9 @@ z = y[0]
 print(y)
 print(z) """
 
-x="This is a sentence."
-print(x)
+""" sentence = input("This_is_a_sentence: ")
+print(len(sentence.split()))
+
+ """
+
+verb1=input("verb1:   ")
