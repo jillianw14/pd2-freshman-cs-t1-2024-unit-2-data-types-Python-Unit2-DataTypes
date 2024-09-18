@@ -18,4 +18,52 @@ print(len(sentence.split()))
 
  """
 
-verb1=input("verb1:   ")
+""" verb1=input("Enter verb1: ")
+verb1 = ("scootering")
+print(verb1)
+verb2=input("Enter verb2: ")
+verb2 = ("brushing")
+print(verb2)
+noun=input("Enter noun: ")
+noun = ("pencil")
+print(noun)
+number=input("Enter number: ")
+number = ("4")
+print(number)
+celebrity=input("Enter celebrity: ")
+celebrity = ("SZA")
+print(celebrity) """
+""" 
+verb1 = input("Enter verb1: ")
+print("Your first verb is: " + verb1) """
+""" verb2 = 'brushing'
+noun = 'vaccuum cleaners'
+number = '4'
+celebrity = 'SZA'
+
+print(f"I went {verb1} after getting a {number} {noun} from the store. When I got home, I listened to {celebrity} while {verb2} my hair.") """
+
+""" verb1 = input("Enter verb1: ")
+verb2 = input("Eneter verb2: ")
+noun = input("Enter noun: ")
+number = input("Enter number: ")
+celebrity = input("Enter celebrity: ")
+print(f"I went {verb1} after getting a {number} {noun} from the store. When I got home, I listened to {celebrity} while {verb2} my hair.")
+ """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Wednesday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "class"
+print(f"hello {x}") """
+
+temp = 68
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
