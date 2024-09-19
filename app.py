@@ -60,10 +60,29 @@ else:
 """ x = "class"
 print(f"hello {x}") """
 
-temp = 68
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
+""" num = int(input("Enter number: "))
+if (num%2) == 0:
+    print('even')
 else:
-    print('cold')
+    print('odd') """
+
+""" num = int(input("Enter bill amount:"))
+service = input("Enter how the service was: " )
+if  service == ("bad"):
+    print('tip 0%')
+elif service == ("okay"):
+    print('tip 15%')
+elif service == ("good"):
+    print('tip 20%')
+else:
+    print('tip 25%') """
+
+def print_factors(x):
+    print("The factors of",x,"are:")
+    for i in range(1, x + 1):
+        if x % i == 0:
+            print(i)
+
+
+num = int(input("Enter number: "))
+print_factors(num)
