@@ -77,7 +77,7 @@ elif service == ("good"):
 else:
     print('tip 25%') """
 
-def print_factors(x):
+""" def print_factors(x):
     print("The factors of",x,"are:")
     for i in range(1, x + 1):
         if x % i == 0:
@@ -86,3 +86,23 @@ def print_factors(x):
 
 num = int(input("Enter number: "))
 print_factors(num)
+ """
+
+def gcf(x, y):
+    if x > y:
+        smaller = y
+
+    else:
+        smaller = x
+    for i in range(1, smaller + 1):
+        if ((x % i == 0)and (y % i == 0)):
+            gcf = i
+    return gcf
+
+
+num = int(input("Enter number: " ))
+x = num
+num2 = int(input("Enter another number: " ))
+y = num2
+print("The greatest common factor of",x,"and",y,"is: ")
+print(gcf(x, y))
